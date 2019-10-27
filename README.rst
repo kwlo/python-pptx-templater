@@ -8,12 +8,12 @@ Example
 -------
 Input
 
-.. image:: https://raw.githubusercontent.com/kwlo/python-pptx-templater/master/docs/static/images/sample_input.png?sanitize=true
+.. image:: https://raw.githubusercontent.com/kwlo/python-pptx-templater/master/docs/static/images/sample_input.png
 
 Using Template JSON:
 
 .. code-block:: text
-    
+
     {
         'slides': [
             {
@@ -41,7 +41,7 @@ Using Template JSON:
 
 Output
 
-.. image:: https://raw.githubusercontent.com/kwlo/python-pptx-templater/master/docs/static/images/sample_input.png?sanitize=true
+.. image:: https://raw.githubusercontent.com/kwlo/python-pptx-templater/master/docs/static/images/sample_output.png
 
 Install
 -------
