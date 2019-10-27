@@ -6,6 +6,7 @@ User specifies the layouts and placeholders and the template will render the pre
 
 Example
 -------
+
 Input
 
 .. image:: https://raw.githubusercontent.com/kwlo/python-pptx-templater/master/docs/static/images/sample_input.png

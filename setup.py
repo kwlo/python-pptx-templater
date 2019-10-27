@@ -4,11 +4,8 @@ import re
 from setuptools import find_packages
 from setuptools import setup
 
-with io.open("README.rst", "rt", encoding="utf8") as f:
+with io.open("README.rst") as f:
     readme = f.read()
-
-with io.open("LICENSE", "rt", encoding="utf8") as f:
-    license = f.read()
 
 with io.open("pptx_templater/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r"__version__ = '(.*?)'", f.read(), re.M).group(1)
@@ -22,13 +19,14 @@ setup(
         "Code": "https://github.com/kwlo/python-pptx-templater",
         "Issue tracker": "https://github.com/kwlo/python-pptx-templater/issues",
     },
-    license=license,
+    license="MIT License",
     author="kwlo",
     author_email="kwlo@github.com",
     maintainer="kwlo",
     maintainer_email="kwlo@github.com",
-    description="",
+    description="Create customization PowerPoint Presentation (.pptx) using a predefined layout template",
     long_description=readme,
+    long_description_content_type="text/x-rst",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
