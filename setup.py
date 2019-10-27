@@ -24,7 +24,7 @@ setup(
     author_email="kwlo@github.com",
     maintainer="kwlo",
     maintainer_email="kwlo@github.com",
-    description="Create customization PowerPoint Presentation (.pptx) using a predefined layout template",
+    description="Create customizable PowerPoint Presentation (.pptx) using a predefined layout template",
     long_description=readme,
     long_description_content_type="text/x-rst",
     classifiers=[
