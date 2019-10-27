@@ -1,0 +1,5 @@
+jinja2==2.10.3
+python-pptx==0.6.18
+
+# dev-dependencies
+pytest==5.2.2
