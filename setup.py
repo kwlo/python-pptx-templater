@@ -11,7 +11,7 @@ with io.open("LICENSE", "rt", encoding="utf8") as f:
     license = f.read()
 
 with io.open("pptx_templater/__init__.py", "rt", encoding="utf8") as f:
-    version = re.search(r'__version__ = "(.*?)"', f.read(), re.M).group(1)
+    version = re.search(r"__version__ = '(.*?)'", f.read(), re.M).group(1)
 
 setup(
     name="python-pptx-templater",
