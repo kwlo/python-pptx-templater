@@ -7,6 +7,9 @@ from setuptools import setup
 with io.open("README.rst", "rt", encoding="utf8") as f:
     readme = f.read()
 
+with io.open("LICENSE", "rt", encoding="utf8") as f:
+    license = f.read()
+
 with io.open("pptx_templater/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r'__version__ = "(.*?)"', f.read(), re.M).group(1)
 
@@ -19,7 +22,7 @@ setup(
         "Code": "https://github.com/kwlo/python-pptx-templater",
         "Issue tracker": "https://github.com/kwlo/python-pptx-templater/issues",
     },
-    license="",
+    license=license,
     author="kwlo",
     author_email="kwlo@github.com",
     maintainer="kwlo",
